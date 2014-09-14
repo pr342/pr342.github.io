@@ -1,2 +1,4 @@
-pr342.github.io
-===============
+My personal website
+====================
+
+Trying stuff out.
