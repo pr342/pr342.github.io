@@ -5,7 +5,7 @@ description: "A personal website"
 logo: # 120x120 px default image used for Twitter summary card
 teaser: 400x250.gif
 locale:
-url: http://prosello.com/
+url: http://pr342.github.io/
 
 # Jekyll configuration
 
