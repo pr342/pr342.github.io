@@ -1,20 +1,32 @@
 Pol Rosello
-Fall 2014 Transcript
-Cornell University
+Cornell University Transcript
 College of Engineering
 
-3.9 GPA
-4.0 Major GPA
+Bachelor of Science in Computer Science
+Bachelor of Science in Electrical and Computer Engineering
 
-Fall 2014 (in progress)
-=======================
+3.90 GPA
 
-CS 2850  - Networks
-CS 4410  - Operating Systems
-CS 4780  - Machine Learning
-ECE 3100 - Probability and Inference for Random Signals and Systems
-ECE 4450 - Computer Networks and Telecommunications
-ECE 4760 - Design with Microcontrollers
+Spring 2015
+===========
+
+COML 3300  - Political Theory and Cinema (SX)
+CS 4820    - Introduction to Analysis of Algorithms (A-)
+CS 4852    - Networks II (A-)
+ECE 4250   - Digital Signal and Image Processing (A)
+ECE 5760   - Advanced Microcontroller Design (A)
+ENGRC 3023 - Writing Intensive Opportunity (A)
+PHIL 1900  - Building a Life Worth Living (SX)
+
+Fall 2014
+=========
+
+CS 2850  - Networks (A+)
+CS 4410  - Operating Systems (A-)
+CS 4780  - Machine Learning (A-)
+ECE 3100 - Probability and Inference for Random Signals and Systems (A-)
+ECE 4450 - Computer Networks and Telecommunications (A)
+ECE 4760 - Design with Microcontrollers (A)
 
 Spring 2014
 ===========
