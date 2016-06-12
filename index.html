@@ -1,1 +1,292 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    .cropcircle{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
+    }
+    #profile-img{
+    background-image: url(images/profile-img.jpg);
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="seal_icon.png">
+  <title>Pol Rosello</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="67%" valign="middle">
+        <p align="center">
+          <name>Pol Rosello</name>
+        </p>
+        <p>Hi! I am a M.S. student in the Computer Science department at <a href="http://www-cs.stanford.edu/">Stanford University</a>. I have experience in embedded systems and artificial intelligence. I am interested in leveraging hardware knowledge to accelerate machine learning algorithms. Applications in computer vision, natural language understanding, and biology are particularly exciting to me.
+        </p>
 
+        <p>In May 2015 I earned a double B.S. in <a href="https://www.cs.cornell.edu/">Computer Science</a> and <a href="https://www.ece.cornell.edu/">Electrical and Computer Engineering</a> from <a href="https://www.cornell.edu/">Cornell University</a>. I have interned at <a href="http://www.spacex.com/">SpaceX</a> and <a href="https://www.cisco.com/">Cisco</a> as a software developer and have conducted undergraduate computer architecture research at Cornell's <a href="http://www.csl.cornell.edu/~cbatten/">Computer Systems Laboratory</a>.
+        </p>
+        <p align=center>
+          <script type="text/javascript" language="javascript">
+          <!--
+          // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+          // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+          // This code is freeware provided these four comment lines remain intact
+          // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+          { coded = "UM1@jZ.ZPSCwMTo.4oc"
+            key = "xD9tRo3ewmKzZlJpVNuvXGPHMQ4YE7Ba1nU8kcrbFhW0y652dqSfCgOsjTiLIA"
+            shift=coded.length
+            link=""
+            for (i=0; i<coded.length; i++) {
+              if (key.indexOf(coded.charAt(i))==-1) {
+                ltr = coded.charAt(i)
+                link += (ltr)
+              }
+              else {     
+                ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                link += (key.charAt(ltr))
+              }
+            }
+          document.write("<a href='mailto:"+link+"'>Email</a>")
+          }
+          //-->
+          </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+           &nbsp/&nbsp
+          <a href="resume-grad.pdf">Resume</a> &nbsp/&nbsp
+          <a href="https://www.linkedin.com/in/polrosello/">LinkedIn</a>
+        </p>
+        </td>
+        <td width="33%">
+        <div id="profile-img" class="cropcircle"></div>
+        </td>
+      </tr>
+      </table>
+
+      <!--  Projects  -->
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td width="100%" valign="middle">
+          <heading>Projects</heading>
+          <p>
+          Here are some projects I have worked on, spanning fields from FPGA development to natural language understanding. Click the titles to read the reports! Author names are in alphabetical order. <!-- <span class="highlight">highlighted</span>. -->
+          </p>
+        </td>
+      </tr>
+      </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="25%">
+            <img src='images/style-transfer.png'>
+          </td>
+          <td valign="top" width="75%">
+            <p>
+              <a href="papers/style-transfer-final-paper.pdf">
+                <papertitle>Style Transfer Using Non-Parallel Corpora</papertitle>
+              </a><br>
+              Gus Liu, <strong>Pol Rosello</strong>, Ellen Sebastian<br>
+              <em><a href="http://web.stanford.edu/class/cs224u/">CS 224u</a> - Natural Language Understanding</em>, Stanford, Spring 2016<br>
+            <p></p>
+            <p>We investigate the problem of <i>style transfer</i>: Given a document D in a style S, and a separate style S', can we produce a new document D' in style S' which preserves the meaning of D'? We describe a novel style transfer approach that does not rely on parallel or pseudo-parallel corpora, making use of anchoring-based paraphrase extraction and recurrent neural language models. Language models implemented in Torch7.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="25%">
+            <img src='images/virtual-window.jpg'>
+          </td>
+          <td valign="top" width="75%">
+            <p>
+              <a href="papers/virtual-window-final-paper.pdf">
+                <papertitle>Virtual Reality Window</papertitle>
+              </a><br>
+              <strong>Pol Rosello</strong>, Cheng-Han Wu, Jiayu Wu<br>
+              <em><a href="http://web.stanford.edu/class/cs231a/">CS 231a</a> - Computer Vision: From 3D Reconstruction to Recognition</em>, Stanford, Spring 2016<br>
+            <p></p>
+            <p>Implemented a virtual reality system which achieves the illusion of depth on an ordinary display, requiring no special equipment (other than a webcam and a computer). The display simulates motion parallax and a changing field of view, functioning as a "window" into a virtual, three-dimensional scene. We use Haar cascade classifiers, camera models, and Kalman filtering to track the user's head position in 3D in real time and update the display according to an off-axis projection model. We extend our system with a gesture recognition pipeline that allows for object or scene orbiting. Uses OpenCV and OpenGL. <a href="https://www.youtube.com/watch?v=jgI0-zbCuo0">Demo video</a>.</p>
+          </td>
+        </tr>        
+
+        <tr>
+          <td width="25%">
+            <img src='images/optical-flow.png'>
+          </td>
+          <td valign="top" width="75%">
+            <p>
+              <a href="http://cs231n.stanford.edu/reports2016/223_Report.pdf">
+                <papertitle>Predicting Future Optical Flow from Static Video Frames</papertitle>
+              </a><br>
+              <strong>Pol Rosello</strong><br>
+              <em><a href="http://cs231n.stanford.edu/">CS 231n</a> - Convolutional Neural Networks for Visual Recognition</em>, Stanford, Winter 2016<br>
+            <p></p>
+            <p>Designed and trained a fully-convolutional neural network that predicts future optical flow from a single video frame. Extended the pipeline with iterative frame warping to generate video predictions in raw pixel space. Implemented in Torch7. <a href="https://www.youtube.com/watch?v=CPUnVs3X48c">Demo video</a>.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="25%">
+            <img src='images/ttt.jpg'>
+          </td>
+          <td valign="top" width="75%">
+            <p>
+              <a href="https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2015/ttt/ttt/ttt/index.html">
+                <papertitle>FPGA-based Table Tennis Game Tracker</papertitle>
+              </a><br>
+              Taylor Pritchard, <strong>Pol Rosello</strong>, Frank Xie<br>
+              <em><a href="https://people.ece.cornell.edu/land/courses/ece5760/">ECE 5760</a> - Advanced Microcontroller Design</em>, Cornell, Spring 2015<br>
+            <p></p>
+            <p>Developed an FPGA-based automatic table tennis score keeper. By analyzing a video feed of a live game, the system is able to award points in real time with no direct user input. Implemented fully in FPGA hardware logic without the use of soft cores. The project has been featured on <a href="http://hackaday.com/2015/05/15/fpgas-keep-track-of-your-ping-pong-game/">Hackaday</a> and the <a href="http://www.computer.org/csdl/mags/co/2015/10/mco2015100080.pdf">October 2015 issue</a> of IEEE Computer Magazine, and our <a href="https://www.youtube.com/watch?v=GB31-bBfpS4">demo video</a> has been viewed over 13,000 times on YouTube.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="25%" align="center">
+            <img src='images/xloops.png'>
+          </td>
+          <td valign="top" width="75%">
+            <p>
+              <a href="http://www.csl.cornell.edu/~cbatten/pdfs/srinath-xloops-micro2014.pdf">
+                <papertitle>Undergraduate Computer Architecture Research</papertitle>
+              </a><br>
+              <a href="http://www.csl.cornell.edu/~cbatten/research.html"><em>Batten Research Group</em></a>, Cornell, Spring/Fall 2014<br>
+            <p></p>
+            <p>Wrote and optimized algorithms in C/C++ to benchmark a novel high-performance, energy-efficient parallel computing microarchitecture by mapping them to a research ISA. Contributions acknowledged in two accepted 2014 IEEE MICRO papers (<a href="http://www.csl.cornell.edu/~cbatten/pdfs/srinath-xloops-micro2014.pdf">1</a>, <a href="http://www.csl.cornell.edu/~cbatten/pdfs/godycki-rpdn-micro2014.pdf">2</a>) authored by the group.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="25%">
+            <img src='images/violet.jpg'>
+          </td>
+          <td valign="top" width="75%">
+            <p>
+              <a href="http://violet.cusat.cornell.edu/">
+                <papertitle><em>Violet</em> Nanosatellite Command and Data Handling Software</papertitle>
+              </a><br>
+              Power Systems Subteam<br>
+              <a href="http://violet.cusat.cornell.edu/"><em>Violet Project Team</em></a>, Cornell, Fall 2013<br>
+            <p></p>
+            <p>Programmed and debugged the command and data handling board of a high-agility nanosatellite set to launch in 2017. The board serves as the satellite's central router and interfaces with the flight computer, radio, and numerous sensors such as a gyroscope, a spectrometer and a star tracker.</p>
+          </td>
+        </tr>
+
+      <!--  Teaching  -->
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <heading>Teaching Assisting</heading>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellpadding="20">
+      <tr>
+        <td width="25%"><img src="images/cuseal.png" alt="Cornell University" width="160" height="160"></td>
+        <td width="75%" valign="center">
+        <p>
+          <a href="http://www.csl.cornell.edu/courses/ece4750/">
+          <papertitle>ECE 4750 &nbsp/&nbsp CS 4420 - Computer Architecture</papertitle>
+          </a>
+          <br><em>Cornell University, Fall 2014</em><br><br>
+          <a href="http://courses.cornell.edu/preview_course_nopop.php?catoid=14&coid=160746">
+          <papertitle>ECE 3140 &nbsp/&nbsp CS 3420 - Embedded Systems</papertitle>
+          </a>
+          <br><em>Cornell University, Spring 2014</em><br><br>
+          <a href="http://www.cs.cornell.edu/courses/cs2110/2013fa/">
+          <papertitle>CS 2110 - Object-Oriented Programming and Data Structures</papertitle>
+          </a>
+          <br><em>Cornell University, Fall 2013</em>
+        </p>
+        </td>
+      </tr>
+      </table>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+        <td>
+        <br>
+        <p align="right">
+          <font size="2">
+            theme by <a href="http://people.eecs.berkeley.edu/~barron/">Jon Barron</a>
+          </font>
+        </p>
+        </td>
+      </tr>
+      </table>
+      <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          
+      </script> <script type="text/javascript">
+      try {
+          var pageTracker = _gat._getTracker("UA-7580334-1");
+          pageTracker._trackPageview();
+          } catch(err) {}
+      </script>
+    </td>
+    </tr>
+  </table>
+  </body>
+</html>
