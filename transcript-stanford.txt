@@ -1,0 +1,20 @@
+Pol Rosello
+Stanford University Transcript
+
+Master of Science in Computer Science
+
+4.15 GPA
+
+Spring 2016
+===========
+
+CS 224U - Natural Language Understanding (A+)
+CS 231A - Computer Vision: From 3D Reconstruction to Recognition (A+)
+EE 380  - Colloquium on Computer Systems (S)
+
+Winter 2016
+===========
+
+CS 231N - Convolutional Neural Networks for Visual Recognition (A)
+CS 246  - Mining Massive Data Sets (A)
+EE 380  - Colloquium on Computer Systems (S)
