@@ -3,7 +3,14 @@ Stanford University Transcript
 
 Master of Science in Computer Science
 
-4.15 GPA
+4.17 GPA
+
+Winter 2016
+===========
+
+CS 238  - Decision Making Under Uncertainty (A+)
+CS 157  - Logic and Automated Reasoning (A)
+CS 273B - Deep Learning in Genomics and Biomedicine (A+)
 
 Spring 2016
 ===========
