@@ -15,10 +15,11 @@
     <div class="col-bio">
       <p align="center"><name>Pol Rosello</name></p>
 
-      <p>Hi! I am a M.S. student in the Computer Science department at <a href="http://www-cs.stanford.edu/">Stanford University</a> specializing in artificial intelligence. I am interested in the deployment of intelligent systems in the real world, particularly in environments with limited computational resources. I am a member of the <a href="http://sisl.stanford.edu/">Stanford Intelligent Systems Laboratory</a>, where I do research on reinforcement learning.
+      <p>Hi! I am a software engineer at <a href="http://www.spacex.com/">SpaceX</a>. I lead software development for <a href="https://twitter.com/elonmusk/status/1158968745227780096?s=20">fairing recovery</a> as well as our <a href="https://en.wikipedia.org/wiki/Laser_communication_in_space">laser-based inter-satellite communication system</a>. I am interested in the development of autonomous systems in the real world, particularly in environments with limited computational resources.
       </p>
 
-      <p>In May 2015 I earned a double B.S. in <a href="https://www.cs.cornell.edu/">Computer Science</a> and <a href="https://www.ece.cornell.edu/">Electrical and Computer Engineering</a> from <a href="https://www.cornell.edu/">Cornell University</a>. In the past, I have interned at <a href="http://www.spacex.com/">SpaceX</a> as an embedded systems firmware developer and at <a href="https://www.cisco.com/">Cisco</a> as a software developer, and have conducted undergraduate computer architecture research at Cornell's <a href="http://www.csl.cornell.edu/~cbatten/">Computer Systems Laboratory</a>.
+	  <p>
+      	In 2017 I graduated with an M.S. in Computer Science from <a href="http://www-cs.stanford.edu/">Stanford University</a>, where I did research on reinforcement learning at the <a href="http://sisl.stanford.edu/">Stanford Intelligent Systems Laboratory</a>. In May 2015 I earned a double B.S. in <a href="https://www.cs.cornell.edu/">Computer Science</a> and <a href="https://www.ece.cornell.edu/">Electrical and Computer Engineering</a> from <a href="https://www.cornell.edu/">Cornell University</a>. In the past, I have interned at SpaceX as an embedded systems firmware developer and at <a href="https://www.cisco.com/">Cisco</a> as a software developer, and have conducted undergraduate computer architecture research at Cornell's <a href="http://www.csl.cornell.edu/~cbatten/">Computer Systems Laboratory</a>.
       </p>
 
       <p align=center>
@@ -38,6 +39,43 @@
     <heading>Projects</heading>
     <p> Projects I have worked on outside of work span domains from FPGA development to natural language understanding. Click the project titles to read the reports -- author names are in alphabetical order. Be sure to check out the demo videos! <!-- <span class="highlight">highlighted</span>. -->
     </p>
+  </div>
+
+  <div class="row">
+    <div class="col-proj-pic"><img src='images/marlmot.png'></div>
+    <div class="col-proj-desc">
+      <a href="http://ifaamas.org/Proceedings/aamas2018/pdfs/p1397.pdf">
+        <papertitle>Multi-Agent Reinforcement Learning for Multi-Object Tracking</papertitle>
+      </a><br>
+      <strong>Pol Rosello</strong>, <a href="https://mykel.kochenderfer.com/">Mykel Kochenderder</a><br>
+      <em><a href="http://celweb.vuse.vanderbilt.edu/aamas18/">International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2018</a></em>
+      <p>We present a novel, multi-agent reinforcement learning formulation of multi-object tracking that treats creating, propagating, and terminating object tracks as actions in a sequential decision-making problem. Our experiments show an improvement in tracking accuracy over similar state-of-the-art, rule-based approaches on a popular multi-object tracking dataset.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-proj-pic"><img src='images/subvocalization.png'></div>
+    <div class="col-proj-desc">
+      <a href="http://web.stanford.edu/class/cs224s/reports/Pol_Rosello.pdf">
+        <papertitle>End-to-end neural networks for subvocal speech recognition</papertitle>
+      </a><br>
+      <strong>Pol Rosello</strong>, Pamela Toman, Nipun Agarwala<br>
+      <em><a href="http://web.stanford.edu/class/cs224s/">CS 224S</a> - Natural Language Processing with Deep Learning</em>, Stanford, Spring 2017<br>
+      <em>Top 3 CS 224S Paper</em><br>
+      <p>Subvocalization is a phenomenon observed while subjects read or think, characterized by involuntary facial and laryngeal muscle movements. By measuring this muscle activity using surface electromyography (EMG), it may be possible to perform automatic speech recognition (ASR) and enable silent, hands-free human-computer interfaces. In our work, we describe the first approach toward end-to-end, session-independent subvocal speech recognition by leveraging character-level recurrent neural networks (RNNs) and the connectionist temporal classification loss (CTC).</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-proj-pic"><img src='images/text-gans.png'></div>
+    <div class="col-proj-desc">
+      <a href="papers/text-gans-w17.pdf">
+        <papertitle>Text Generation using Generative Adversarial Networks</papertitle>
+      </a><br>
+      Vincent-Pierre Berges, Isabel Bush, <strong>Pol Rosello</strong><br>
+      <em><a href="http://web.stanford.edu/class/cs224n/">CS 224N</a> - Natural Language Processing with Deep Learning</em>, Stanford, Winter 2017<br>
+      <p>We show the limitations of using language models in a generative manner by training discriminator models to distinguish between real and synthetic text produced by language models. Our best discriminative model reaches 90% accuracy on the test set, demonstrating the weaknesses of using language models as generators. We propose the use of generative adversarial networks (GANs) to improve synthetic text generation. We describe architectural changes to recurrent language models that are necessary for their use in GANs, and pre-train these generative architectures using variational auto-encoders.</p>
+    </div>
   </div>
 
   <div class="row">
@@ -109,7 +147,7 @@
       </a><br>
       Taylor Pritchard, <strong>Pol Rosello</strong>, Frank Xie<br>
       <em><a href="https://people.ece.cornell.edu/land/courses/ece5760/">ECE 5760</a> - Advanced Microcontroller Design</em>, Cornell, Spring 2015<br>
-      <p>Developed an FPGA-based automatic table tennis score keeper, implemented fully in hardware logic without the use of a CPU. By analyzing a video feed of a live game, the system awards points in real time with no direct user input. The project has been featured on <a href="http://hackaday.com/2015/05/15/fpgas-keep-track-of-your-ping-pong-game/">Hackaday</a> and the <a href="http://www.computer.org/csdl/mags/co/2015/10/mco2015100080.pdf">October 2015 issue</a> of IEEE Computer Magazine, and our <a href="https://www.youtube.com/watch?v=GB31-bBfpS4">demo video</a> has been viewed over 13,000 times on YouTube.</p>
+      <p>Developed an FPGA-based automatic table tennis score keeper, implemented fully in hardware logic without the use of a CPU. By analyzing a video feed of a live game, the system awards points in real time with no direct user input. The project has been featured on <a href="http://hackaday.com/2015/05/15/fpgas-keep-track-of-your-ping-pong-game/">Hackaday</a> and the <a href="http://www.computer.org/csdl/mags/co/2015/10/mco2015100080.pdf">October 2015 issue</a> of IEEE Computer Magazine. Check out our <a href="https://www.youtube.com/watch?v=GB31-bBfpS4">demo video</a>!</p>
     </div>
   </div>
 
@@ -165,10 +203,12 @@
   </div>
 
   <div class="row">
-    <input type='checkbox' style='display: none' id=st>
+    <input type='checkbox' style='display: none' id=st checked>
     <label for=st>Stanford University</label>
     <div class="reveal">
       <ul>
+      	<li>CS 234 - Reinforcement Learning</li>
+      	<li>CS 224S - Spoken Language Processing</li>
         <li>CS 224N - Natural Language Processing with Deep Learning</li>
         <li>CS 238 - Decision Making Under Uncertainty</li>
         <li>CS 157 - Logic and Automated Reasoning</li>
@@ -184,7 +224,7 @@
   </div>
 
   <div class="row">
-    <input type='checkbox' style='display: none' id=co>
+    <input type='checkbox' style='display: none' id=co checked>
     <label for=co>Cornell University</label>
     <div class="reveal">
       <ul>

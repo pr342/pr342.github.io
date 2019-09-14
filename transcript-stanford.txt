@@ -3,10 +3,22 @@ Stanford University Transcript
 
 Master of Science in Computer Science
 
-4.17 GPA
-
-Winter 2016
+Spring 2017
 ===========
+
+CS 224S    - Spoken Language Processing (A+)
+CS 234     - Reinforcement Learning (A)
+SYMSYS 280 - Symbolic Systems Research Seminar (S)
+
+Winter 2017
+===========
+
+CS 224N - Natural Language Processing with Deep Learning (A)
+CS 243  - Program Analysis and Optimizations (A-)
+CS 149  - Parallel Computing (A)
+
+Fall 2016
+=========
 
 CS 238  - Decision Making Under Uncertainty (A+)
 CS 157  - Logic and Automated Reasoning (A)
